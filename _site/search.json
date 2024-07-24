@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "New names:\nRows: 15285 Columns: 15\n── Column specification\n──────────────────────────────────────────────────────── Delimiter: \",\" chr\n(2): direction, device dbl (12): ...1, entry_id, uv, lux, temperature,\npressure, humidity, pm1, pm... dttm (1): time\nℹ Use `spec()` to retrieve the full column specification for this data. ℹ\nSpecify the column types or set `show_col_types = FALSE` to quiet this message.\n• `` -&gt; `...1`\n\n\nWarning in geom_point(binwidth = 50, alpha = 0.05): Ignoring unknown\nparameters: `binwidth`\n\n\nWarning: Removed 18 rows containing missing values or values outside the scale range\n(`geom_point()`)."
+  }
+]

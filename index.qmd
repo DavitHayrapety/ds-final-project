@@ -1,0 +1,23 @@
+---
+title: "Final Project"
+execute: 
+  echo: false
+---
+
+```{r}
+#| message: false
+#| label: setup
+
+library(tidyverse)
+library(knitr)
+```
+
+
+```{r}
+vazgen <- read_csv("vazgen.csv")
+
+vazgen |>
+  ggplot(aes(x = time, y = pm1)) +
+  geom_density()
+```
+
