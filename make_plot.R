@@ -24,45 +24,107 @@ azatan <- read_csv("azatan.csv")
 
 
 
-temp_merged<- rbind(azatan, vazgen, artik, panik, maralik)
+temp_merged<- rbind(azatan, vazgen, artik, panik, maralik) |>
+  select(time, temperature, device)
 
 temp_plot <- temp_merged |>
+  drop_na()|>
   ggplot(mapping = aes(x = time, y = temperature, color = device)) +
-  geom_smooth(na.rm = TRUE) +
-  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+  geom_smooth(na.rm = TRUE) 
+#  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
 #print(temp_plot)
 
 
 
 
-pres_merged<- rbind(azatan, vazgen, artik, panik, maralik)
+pres_merged<- rbind(azatan, vazgen, artik, panik, maralik) |>
+  select(time, pressure, device)
 
 pres_plot <- pres_merged |>
+  drop_na()|>
   ggplot(mapping = aes(x = time, y = pressure, color = device)) +
-  geom_line(na.rm = TRUE) +
-  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+  geom_line(na.rm = TRUE) 
+#  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
 #print(pres_plot)
 
 
 
 
-merged<- rbind(azatan, vazgen, artik, panik, maralik) |>
+lux_uv_merged<- rbind(azatan, vazgen, artik, panik, maralik) |>
   select( device, lux, uv)
 
-plot <- merged |>
+lux_uv_plot <- lux_uv_merged |>
+  drop_na()|>
   ggplot(mapping = aes(x = lux, y = uv, color = device)) +
-  geom_line(na.rm = TRUE) +
-  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
-print(plot)
+  geom_smooth(na.rm = TRUE) 
+#  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+#print(lux_uv_plot)
 
 
 
 
-#merged<- rbind(azatan, vazgen, artik, panik, maralik)
-#
-#plot <- merged |>
-#  ggplot(mapping = aes(x = time, y = uv, color = device)) +
-#  geom_line(na.rm = TRUE) +
+lux_merged<- rbind(azatan, vazgen, artik, panik, maralik)|>
+  select(time, lux, device)
+
+lux_plot <- lux_merged |>
+  ggplot(mapping = aes(x = time, y = lux, color = device)) +
+  geom_smooth(na.rm = TRUE) 
+#  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+#print(lux_plot)
+
+
+
+
+
+
+pm1_merged<- rbind(azatan, vazgen, artik, panik, maralik) |>
+  select(time, pm1, device)
+
+pm1_plot <- pm1_merged |>
+  ggplot(mapping = aes(x = time, y = pm1, color = device)) +
+  geom_smooth(na.rm = TRUE) 
+#  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+#print(pm1_plot)
+
+
+
+
+
+merged<- rbind(azatan, vazgen, artik, panik, maralik)
+
+plot <- merged |>
+  ggplot(mapping = aes(x = time, y = pm1, color = device)) +
+  geom_smooth(na.rm = TRUE) 
+#  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+#print(plot)
+
+
+
+
+
+
+merged<- rbind(azatan, vazgen, artik, panik, maralik)
+
+plot <- merged |>
+  ggplot(mapping = aes(x = time, y = pm1, color = device)) +
+  geom_smooth(na.rm = TRUE) 
+#  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+#print(plot)
+
+
+
+
+
+
+
+
+
+
+merged<- rbind(azatan, vazgen, artik, panik, maralik)
+
+plot <- merged |>
+  ggplot(mapping = aes(x = time, y = pm1, color = device)) +
+  geom_smooth(na.rm = TRUE) 
 #  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
 #print(plot)
 
