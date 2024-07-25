@@ -22,6 +22,11 @@ library(knitr)
 
 
 
+```{r}
+#| label: temp-plot
+
+knitr::include_graphics("temp_plot.png")
+```
 
 
 

@@ -2,4 +2,31 @@
 title: "About"
 ---
 
-About this site
+
+## Who I am
+
+Hello. My name is Davit Hayrapetyan, and I have just finished Kapan’s 3rd secondary school and am going to attend AUA this fall. I have chosen Computer Science as my major. I am also interested in data science. Playing the guitar is my hobby and I am also passionate about cars. 
+
+
+
+
+## About This Website
+
+&nbsp;&nbsp;&nbsp;&nbsp;This website is designed to showcase my analysis of climate differences between urban and rural areas in Armenia. The main goal is to provide clear, data-driven insights into how urbanization affects the environment.
+
+&nbsp;&nbsp;&nbsp;&nbsp;On this site, you’ll find:
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Home Page:**  
+An introduction to the project, a key data visualization, and an explanation of the project's importance.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Data Analysis Page:**  
+Detailed analysis of the climate data, including various visualizations to illustrate key findings.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Source Page:**  
+Information about the data’s origin, its value, any important considerations, and a link to access the dataset.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**About Page:**
+Information about myself, my interests, and the purpose of this website.
+
+&nbsp;&nbsp;&nbsp;&nbsp;I hope this site offers valuable insights and encourages further exploration into the impact of urbanization on climate. Thank you for visiting!
+

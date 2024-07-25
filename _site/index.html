@@ -151,6 +151,15 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;This project explores the climate differences between urban (Vazgen Sargsian) and somewhat rural residences of Shirak (Artik, Maralik, Panik, Azatan) in Armenia. We analyze factors such as temperature, precipitation, and air quality across various regions using data-driven methods.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;My goal is to reveal how urbanization impacts the environment and to present my findings through clear and engaging data visualizations.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="temp_plot.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="why-this-project-is-important" class="level2">
 <h2 class="anchored" data-anchor-id="why-this-project-is-important">Why This Project is Important</h2>
@@ -252,7 +261,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/113f33af-8b64-4f55-924b-2a8e521629cb\.netlify\.app\/");
+      var filterRegex = new RegExp("https:\/\/davithayrapety\.quarto\.pub\/final-project");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

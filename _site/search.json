@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home Page",
+    "section": "",
+    "text": "This project explores the climate differences between urban (Vazgen Sargsian) and somewhat rural residences of Shirak (Artik, Maralik, Panik, Azatan) in Armenia. We analyze factors such as temperature, precipitation, and air quality across various regions using data-driven methods.\n    My goal is to reveal how urbanization impacts the environment and to present my findings through clear and engaging data visualizations."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Home Page",
+    "section": "",
+    "text": "This project explores the climate differences between urban (Vazgen Sargsian) and somewhat rural residences of Shirak (Artik, Maralik, Panik, Azatan) in Armenia. We analyze factors such as temperature, precipitation, and air quality across various regions using data-driven methods.\n    My goal is to reveal how urbanization impacts the environment and to present my findings through clear and engaging data visualizations."
+  },
+  {
+    "objectID": "index.html#why-this-project-is-important",
+    "href": "index.html#why-this-project-is-important",
+    "title": "Home Page",
+    "section": "Why This Project is Important",
+    "text": "Why This Project is Important\n    Understanding the climate differences between urban and rural areas in Armenia is crucial for several reasons. It helps policymakers make informed decisions about urban planning and environmental protection. Additionally, this knowledge can guide efforts to mitigate the impacts of climate change, improve air quality, and enhance the overall quality of life for residents. By shedding light on these climatic variations, our project aims to contribute to sustainable development and a healthier environment for all."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello. My name is Davit Hayrapetyan, and I have just finished Kapan’s 3rd secondary school and am going to attend AUA this fall. I have chosen Computer Science as my major. I am also interested in data science. Playing the guitar is my hobby and I am also passionate about cars."
+  },
+  {
+    "objectID": "about.html#who-i-am",
+    "href": "about.html#who-i-am",
+    "title": "About",
+    "section": "",
+    "text": "Hello. My name is Davit Hayrapetyan, and I have just finished Kapan’s 3rd secondary school and am going to attend AUA this fall. I have chosen Computer Science as my major. I am also interested in data science. Playing the guitar is my hobby and I am also passionate about cars."
+  },
+  {
+    "objectID": "about.html#about-this-website",
+    "href": "about.html#about-this-website",
+    "title": "About",
+    "section": "About This Website",
+    "text": "About This Website\n    This website is designed to showcase my analysis of climate differences between urban and rural areas in Armenia. The main goal is to provide clear, data-driven insights into how urbanization affects the environment.\n    On this site, you’ll find:\n    Home Page:\nAn introduction to the project, a key data visualization, and an explanation of the project’s importance.\n    Data Analysis Page:\nDetailed analysis of the climate data, including various visualizations to illustrate key findings.\n    Source Page:\nInformation about the data’s origin, its value, any important considerations, and a link to access the dataset.\n    About Page:\nInformation about myself, my interests, and the purpose of this website.\n    I hope this site offers valuable insights and encourages further exploration into the impact of urbanization on climate. Thank you for visiting!"
+  },
+  {
     "objectID": "source.html",
     "href": "source.html",
     "title": "Source",
@@ -33,33 +75,5 @@
     "title": "Source",
     "section": "Data Source",
     "text": "Data Source\n    You can access the TUMO Climate Net data directly from their official website."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home Page",
-    "section": "",
-    "text": "This project explores the climate differences between urban (Vazgen Sargsian) and somewhat rural residences of Shirak (Artik, Maralik, Panik, Azatan) in Armenia. We analyze factors such as temperature, precipitation, and air quality across various regions using data-driven methods.\n    My goal is to reveal how urbanization impacts the environment and to present my findings through clear and engaging data visualizations."
-  },
-  {
-    "objectID": "index.html#introduction",
-    "href": "index.html#introduction",
-    "title": "Home Page",
-    "section": "",
-    "text": "This project explores the climate differences between urban (Vazgen Sargsian) and somewhat rural residences of Shirak (Artik, Maralik, Panik, Azatan) in Armenia. We analyze factors such as temperature, precipitation, and air quality across various regions using data-driven methods.\n    My goal is to reveal how urbanization impacts the environment and to present my findings through clear and engaging data visualizations."
-  },
-  {
-    "objectID": "index.html#why-this-project-is-important",
-    "href": "index.html#why-this-project-is-important",
-    "title": "Home Page",
-    "section": "Why This Project is Important",
-    "text": "Why This Project is Important\n    Understanding the climate differences between urban and rural areas in Armenia is crucial for several reasons. It helps policymakers make informed decisions about urban planning and environmental protection. Additionally, this knowledge can guide efforts to mitigate the impacts of climate change, improve air quality, and enhance the overall quality of life for residents. By shedding light on these climatic variations, our project aims to contribute to sustainable development and a healthier environment for all."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]

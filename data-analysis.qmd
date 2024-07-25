@@ -1,5 +1,32 @@
 ---
 title: "Data Analysis"
 format: html
+execute: 
+  echo: false
 ---
+
+```{r}
+#| message: false
+#| label: setup
+
+library(tidyverse)
+library(knitr)
+```
+
+
+```{r}
+#| label: temp-plot
+
+knitr::include_graphics("pres_plot.png")
+knitr::include_graphics("lux_plot.png")
+knitr::include_graphics("lux_uv_plot.png")
+knitr::include_graphics("pm1_false_plot.png")
+knitr::include_graphics("pm1_plot.png")
+knitr::include_graphics("pm2_5_plot.png")
+knitr::include_graphics("pm10_plot.png")
+```
+
+
+
+
 

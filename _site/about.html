@@ -115,8 +115,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#who-i-am" id="toc-who-i-am" class="nav-link active" data-scroll-target="#who-i-am">Who I am</a></li>
+  <li><a href="#about-this-website" id="toc-about-this-website" class="nav-link" data-scroll-target="#about-this-website">About This Website</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -140,9 +147,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<section id="who-i-am" class="level2">
+<h2 class="anchored" data-anchor-id="who-i-am">Who I am</h2>
+<p>Hello. My name is Davit Hayrapetyan, and I have just finished Kapan’s 3rd secondary school and am going to attend AUA this fall. I have chosen Computer Science as my major. I am also interested in data science. Playing the guitar is my hobby and I am also passionate about cars.</p>
+</section>
+<section id="about-this-website" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-website">About This Website</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This website is designed to showcase my analysis of climate differences between urban and rural areas in Armenia. The main goal is to provide clear, data-driven insights into how urbanization affects the environment.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;On this site, you’ll find:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Home Page:</strong><br>
+An introduction to the project, a key data visualization, and an explanation of the project’s importance.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Data Analysis Page:</strong><br>
+Detailed analysis of the climate data, including various visualizations to illustrate key findings.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Source Page:</strong><br>
+Information about the data’s origin, its value, any important considerations, and a link to access the dataset.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>About Page:</strong><br>
+Information about myself, my interests, and the purpose of this website.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;I hope this site offers valuable insights and encourages further exploration into the impact of urbanization on climate. Thank you for visiting!</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -237,7 +261,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/113f33af-8b64-4f55-924b-2a8e521629cb\.netlify\.app\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
