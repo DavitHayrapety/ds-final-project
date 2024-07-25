@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Final Project</title>
+<title>Home Page – Final Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,15 +115,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#why-this-project-is-important" id="toc-why-this-project-is-important" class="nav-link" data-scroll-target="#why-this-project-is-important">Why This Project is Important</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Final Project</h1>
+<h1 class="title">Home Page</h1>
 </div>
 
 
@@ -140,36 +147,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>New names:
-Rows: 15285 Columns: 15
-── Column specification
-──────────────────────────────────────────────────────── Delimiter: "," chr
-(2): direction, device dbl (12): ...1, entry_id, uv, lux, temperature,
-pressure, humidity, pm1, pm... dttm (1): time
-ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
-Specify the column types or set `show_col_types = FALSE` to quiet this message.
-• `` -&gt; `...1`</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning in geom_point(binwidth = 50, alpha = 0.05): Ignoring unknown
-parameters: `binwidth`</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 18 rows containing missing values or values outside the scale range
-(`geom_point()`).</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This project explores the climate differences between urban (Vazgen Sargsian) and somewhat rural residences of Shirak (Artik, Maralik, Panik, Azatan) in Armenia. We analyze factors such as temperature, precipitation, and air quality across various regions using data-driven methods.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;My goal is to reveal how urbanization impacts the environment and to present my findings through clear and engaging data visualizations.</p>
+</section>
+<section id="why-this-project-is-important" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-project-is-important">Why This Project is Important</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Understanding the climate differences between urban and rural areas in Armenia is crucial for several reasons. It helps policymakers make informed decisions about urban planning and environmental protection. Additionally, this knowledge can guide efforts to mitigate the impacts of climate change, improve air quality, and enhance the overall quality of life for residents. By shedding light on these climatic variations, our project aims to contribute to sustainable development and a healthier environment for all.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -264,7 +252,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/113f33af-8b64-4f55-924b-2a8e521629cb\.netlify\.app\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

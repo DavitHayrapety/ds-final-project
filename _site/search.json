@@ -1,16 +1,65 @@
 [
   {
+    "objectID": "source.html",
+    "href": "source.html",
+    "title": "Source",
+    "section": "",
+    "text": "The data for this project comes from the TUMO Climate Net program. This initiative collects climate data through a network of sensors distributed across Armenia, providing real-time measurements on temperature, humidity, and air quality."
+  },
+  {
+    "objectID": "source.html#data-origins",
+    "href": "source.html#data-origins",
+    "title": "Source",
+    "section": "",
+    "text": "The data for this project comes from the TUMO Climate Net program. This initiative collects climate data through a network of sensors distributed across Armenia, providing real-time measurements on temperature, humidity, and air quality."
+  },
+  {
+    "objectID": "source.html#why-its-valuable-and-good-data",
+    "href": "source.html#why-its-valuable-and-good-data",
+    "title": "Source",
+    "section": "Why It’s Valuable and Good Data",
+    "text": "Why It’s Valuable and Good Data\n    The TUMO Climate Net program is valuable due to its extensive network of sensors that offer high-resolution data across a range of environmental factors. This dataset is particularly useful for understanding regional climate variations because it includes both urban and rural locations, allowing for a comprehensive analysis of climate differences."
+  },
+  {
+    "objectID": "source.html#concerns-or-important-notes",
+    "href": "source.html#concerns-or-important-notes",
+    "title": "Source",
+    "section": "Concerns or Important Notes",
+    "text": "Concerns or Important Notes\n    While the data provided by TUMO Climate Net is generally reliable, there are a few considerations to keep in mind:\n    Data Coverage: Ensure that the data from all relevant sensors is included and up-to-date.\n    Sensor Calibration: Variations in sensor calibration could affect data accuracy.\n    Data Gaps: Check for any missing data points that might affect analysis."
+  },
+  {
+    "objectID": "source.html#data-source",
+    "href": "source.html#data-source",
+    "title": "Source",
+    "section": "Data Source",
+    "text": "Data Source\n    You can access the TUMO Climate Net data directly from their official website."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home Page",
+    "section": "",
+    "text": "This project explores the climate differences between urban (Vazgen Sargsian) and somewhat rural residences of Shirak (Artik, Maralik, Panik, Azatan) in Armenia. We analyze factors such as temperature, precipitation, and air quality across various regions using data-driven methods.\n    My goal is to reveal how urbanization impacts the environment and to present my findings through clear and engaging data visualizations."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Home Page",
+    "section": "",
+    "text": "This project explores the climate differences between urban (Vazgen Sargsian) and somewhat rural residences of Shirak (Artik, Maralik, Panik, Azatan) in Armenia. We analyze factors such as temperature, precipitation, and air quality across various regions using data-driven methods.\n    My goal is to reveal how urbanization impacts the environment and to present my findings through clear and engaging data visualizations."
+  },
+  {
+    "objectID": "index.html#why-this-project-is-important",
+    "href": "index.html#why-this-project-is-important",
+    "title": "Home Page",
+    "section": "Why This Project is Important",
+    "text": "Why This Project is Important\n    Understanding the climate differences between urban and rural areas in Armenia is crucial for several reasons. It helps policymakers make informed decisions about urban planning and environmental protection. Additionally, this knowledge can guide efforts to mitigate the impacts of climate change, improve air quality, and enhance the overall quality of life for residents. By shedding light on these climatic variations, our project aims to contribute to sustainable development and a healthier environment for all."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Final Project",
-    "section": "",
-    "text": "New names:\nRows: 15285 Columns: 15\n── Column specification\n──────────────────────────────────────────────────────── Delimiter: \",\" chr\n(2): direction, device dbl (12): ...1, entry_id, uv, lux, temperature,\npressure, humidity, pm1, pm... dttm (1): time\nℹ Use `spec()` to retrieve the full column specification for this data. ℹ\nSpecify the column types or set `show_col_types = FALSE` to quiet this message.\n• `` -&gt; `...1`\n\n\nWarning in geom_point(binwidth = 50, alpha = 0.05): Ignoring unknown\nparameters: `binwidth`\n\n\nWarning: Removed 18 rows containing missing values or values outside the scale range\n(`geom_point()`)."
   }
 ]

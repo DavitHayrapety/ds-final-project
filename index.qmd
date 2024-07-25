@@ -1,5 +1,5 @@
 ---
-title: "Final Project"
+title: "Home Page"
 execute: 
   echo: false
 ---
@@ -13,11 +13,29 @@ library(knitr)
 ```
 
 
-```{r}
-vazgen <- read_csv("vazgen.csv")
+## Introduction
+&nbsp;&nbsp;&nbsp;&nbsp;This project explores the climate differences between urban (Vazgen Sargsian) and somewhat rural residences of Shirak (Artik, Maralik, Panik, Azatan) in Armenia. We analyze factors such as temperature, precipitation, and air quality across various regions using data-driven methods.
 
-vazgen |>
-  ggplot(aes(x = time, y = pm1)) +
-  geom_density()
-```
+&nbsp;&nbsp;&nbsp;&nbsp;My goal is to reveal how urbanization impacts the environment and to present my findings through clear and engaging data visualizations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Why This Project is Important
+&nbsp;&nbsp;&nbsp;&nbsp;Understanding the climate differences between urban and rural areas in Armenia is crucial for several reasons. It helps policymakers make informed decisions about urban planning and environmental protection. Additionally, this knowledge can guide efforts to mitigate the impacts of climate change, improve air quality, and enhance the overall quality of life for residents. By shedding light on these climatic variations, our project aims to contribute to sustainable development and a healthier environment for all.
+
+
 

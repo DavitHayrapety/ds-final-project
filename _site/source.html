@@ -115,8 +115,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-origins" id="toc-data-origins" class="nav-link active" data-scroll-target="#data-origins">Data Origins</a></li>
+  <li><a href="#why-its-valuable-and-good-data" id="toc-why-its-valuable-and-good-data" class="nav-link" data-scroll-target="#why-its-valuable-and-good-data">Why It’s Valuable and Good Data</a></li>
+  <li><a href="#concerns-or-important-notes" id="toc-concerns-or-important-notes" class="nav-link" data-scroll-target="#concerns-or-important-notes">Concerns or Important Notes</a></li>
+  <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -140,8 +149,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="data-origins" class="level2">
+<h2 class="anchored" data-anchor-id="data-origins">Data Origins</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The data for this project comes from the TUMO Climate Net program. This initiative collects climate data through a network of sensors distributed across Armenia, providing real-time measurements on temperature, humidity, and air quality.</p>
+</section>
+<section id="why-its-valuable-and-good-data" class="level2">
+<h2 class="anchored" data-anchor-id="why-its-valuable-and-good-data">Why It’s Valuable and Good Data</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The TUMO Climate Net program is valuable due to its extensive network of sensors that offer high-resolution data across a range of environmental factors. This dataset is particularly useful for understanding regional climate variations because it includes both urban and rural locations, allowing for a comprehensive analysis of climate differences.</p>
+</section>
+<section id="concerns-or-important-notes" class="level2">
+<h2 class="anchored" data-anchor-id="concerns-or-important-notes">Concerns or Important Notes</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;While the data provided by TUMO Climate Net is generally reliable, there are a few considerations to keep in mind:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>Data Coverage:</strong> Ensure that the data from all relevant sensors is included and up-to-date.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>Sensor Calibration:</strong> Variations in sensor calibration could affect data accuracy.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>Data Gaps:</strong> Check for any missing data points that might affect analysis.</p>
+</section>
+<section id="data-source" class="level2">
+<h2 class="anchored" data-anchor-id="data-source">Data Source</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;You can access the TUMO Climate Net data directly from their <a href="https://climatenet.am/en/">official website</a>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -236,7 +264,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/113f33af-8b64-4f55-924b-2a8e521629cb\.netlify\.app\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -3,3 +3,22 @@ title: "Source"
 format: html
 ---
 
+
+## Data Origins
+&nbsp;&nbsp;&nbsp;&nbsp;The data for this project comes from the TUMO Climate Net program. This initiative collects climate data through a network of sensors distributed across Armenia, providing real-time measurements on temperature, humidity, and air quality.
+
+## Why It’s Valuable and Good Data
+&nbsp;&nbsp;&nbsp;&nbsp;The TUMO Climate Net program is valuable due to its extensive network of sensors that offer high-resolution data across a range of environmental factors. This dataset is particularly useful for understanding regional climate variations because it includes both urban and rural locations, allowing for a comprehensive analysis of climate differences.
+
+## Concerns or Important Notes
+&nbsp;&nbsp;&nbsp;&nbsp;While the data provided by TUMO Climate Net is generally reliable, there are a few considerations to keep in mind:  
+&nbsp;&nbsp;&nbsp;&nbsp;**Data Coverage:** Ensure that the data from all relevant sensors is included and up-to-date.  
+&nbsp;&nbsp;&nbsp;&nbsp;**Sensor Calibration:** Variations in sensor calibration could affect data accuracy.  
+&nbsp;&nbsp;&nbsp;&nbsp;**Data Gaps:** Check for any missing data points that might affect analysis.
+
+## Data Source
+&nbsp;&nbsp;&nbsp;&nbsp;You can access the TUMO Climate Net data directly from their [official website](https://climatenet.am/en/).
+
+
+
+

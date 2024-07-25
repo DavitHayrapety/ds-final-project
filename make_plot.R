@@ -1,29 +1,78 @@
 library(tidyverse)
 library(knitr)
 
-vazgen <- read_csv("vazgen.csv")
+#invalid data
+
+#azatan speed, rain
+
+
+vazgen <- read_csv("vazgen.csv") 
+
 maralik <- read_csv("maralik.csv")
 
-merged<- rbind(vazgen, maralik)
+artik <- read_csv("artik.csv") 
 
-vazgen_data <- vazgen |>
-  select(time, pm1) |>
-    arrange(desc(pm1))
+panik <- read_csv("panik.csv") |>
+  filter(temperature>-12)
 
-library(dplyr)
-vazgen2 <- vazgen %>% 
-  group_by(week = week(time)) %>%
-  mutate(temperature.wk.average = mean(temperature)) %>%
-  ungroup() %>%
-  group_by(month = month(time)) %>%
-  mutate(temperature.mo.average = mean(temperature))
+azatan <- read_csv("azatan.csv")
+  
+  
+  
+#  mutate(new_time= as.Date(time, format= "%d.%m.%Y"))
 
-clim_plot <- merged |>
+
+
+
+temp_merged<- rbind(azatan, vazgen, artik, panik, maralik)
+
+temp_plot <- temp_merged |>
   ggplot(mapping = aes(x = time, y = temperature, color = device)) +
-  geom_line(na.rm = TRUE, size = 0.3) +
-#  coord_cartesian(xlim = c(jan, apr))
-  geom_smooth(na.rm = TRUE)
+  geom_smooth(na.rm = TRUE) +
+  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+#print(temp_plot)
 
-print(clim_plot)
+
+
+
+pres_merged<- rbind(azatan, vazgen, artik, panik, maralik)
+
+pres_plot <- pres_merged |>
+  ggplot(mapping = aes(x = time, y = pressure, color = device)) +
+  geom_line(na.rm = TRUE) +
+  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+#print(pres_plot)
+
+
+
+
+merged<- rbind(azatan, vazgen, artik, panik, maralik) |>
+  select( device, lux, uv)
+
+plot <- merged |>
+  ggplot(mapping = aes(x = lux, y = uv, color = device)) +
+  geom_line(na.rm = TRUE) +
+  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+print(plot)
+
+
+
+
+#merged<- rbind(azatan, vazgen, artik, panik, maralik)
+#
+#plot <- merged |>
+#  ggplot(mapping = aes(x = time, y = uv, color = device)) +
+#  geom_line(na.rm = TRUE) +
+#  scale_x_date(date_breaks="1 month", date_labels="%m-%Y") 
+#print(plot)
+
+
+
+
+
+#  scale_x_date(date_labels="%b %Y", breaks = unique(merged$time))
+# coord_cartesian(ylim = c(0, 500))
+#  geom_smooth(na.rm = TRUE)
+
 
 #es nuyn dzevov temp, lux, uv, pm1, pm2.5, pm10, speed hamematem yerevani u gyuxakan taracqneri het, ogtagorcelov 1 plotum mi qani graphicker, ggplot-i mej porcem time-y xmbavorem weekerov, voch te data-n poxem 
