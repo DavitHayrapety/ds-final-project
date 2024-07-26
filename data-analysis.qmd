@@ -15,18 +15,44 @@ library(knitr)
 
 
 ```{r}
-#| label: temp-plot
 
 knitr::include_graphics("pres_plot.png")
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;In this plot we see that the data for some period of time is missing, but it is not the only matter. We see that the values of rural areas are somewhere 600-650 mb which is the value that is seen on 3500 meters of altitude. Hence, I asuume that the devices are malfunctioning.
+
+
+```{r}
+
 knitr::include_graphics("lux_plot.png")
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;In the plot above we see the abnormal tendency of azatan and Yerevan, which is, again, probably because of malfunctioning. 
+
+
+
+```{r}
+
 knitr::include_graphics("lux_uv_plot.png")
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;Here we see a direct correlation between illumination(lux) and Ultraviolet radiation. Though the illumination data is not valid everywhere, we can infer drom the temperature graph that the ultraviolet radiation is more in the capital.
+
+```{r}
+
 knitr::include_graphics("pm1_false_plot.png")
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;This graph also looks weird because one value is standing out drastically, that is the data of Maralik. The data that is recorded in Maralik can never be valid because the pm1 value of 1200 is not possible. This may again be because of malfunctioning.
+
+
+
+```{r}
+
 knitr::include_graphics("pm1_plot.png")
 knitr::include_graphics("pm2_5_plot.png")
 knitr::include_graphics("pm10_plot.png")
 ```
 
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;Here are the graphs of air pullution by particles of different sizes. from the graph where was displayed the data of Maralik some can infer that in other areas the air quality is nearly the same. However, when we neglect the invalid data we see that the no particular kind of particle pollution (pm1, pm2.5, pm10) stands out. But we see that the values in winter are considerably higher which is natural. But when we take into account the colder climate in rural areas of Shirak, we see why the values are similar with Yerevan, which would be higher in colder climate. 
 

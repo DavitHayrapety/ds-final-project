@@ -161,8 +161,7 @@ An introduction to the project, a key data visualization, and an explanation of 
 Detailed analysis of the climate data, including various visualizations to illustrate key findings.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Source Page:</strong><br>
 Information about the data’s origin, its value, any important considerations, and a link to access the dataset.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>About Page:</strong><br>
-Information about myself, my interests, and the purpose of this website.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>About Page:</strong> Information about myself, my interests, and the purpose of this website.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;I hope this site offers valuable insights and encourages further exploration into the impact of urbanization on climate. Thank you for visiting!</p>
 
 
@@ -261,7 +260,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/davithayrapety\.quarto\.pub\/final-project");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
